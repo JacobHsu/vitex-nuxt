@@ -1,0 +1,19 @@
+@import "vars";
+
+body {
+  font-family: $font-family-light;
+}
+
+h1 {
+  font-size: 44px;
+  color: #171C34;
+  line-height:62px;
+  font-family: $font-family-title;
+  @include mobile {
+    font-size: 30px;
+    line-height: 50px;
+  }
+}
+::-webkit-scrollbar {
+    display: none;
+}

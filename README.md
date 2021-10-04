@@ -17,6 +17,14 @@ create-nuxt-app v3.7.1
 ? Continuous integration: `None`
 ? Version control system: `Git`
 
+## Docs
+
+[CSS 配置](https://www.nuxtjs.cn/api/configuration-css)
+
+## NPM
+
+[xui-module](https://www.npmjs.com/package/xui-module)
+
 ## Build Setup
 
 ```bash
