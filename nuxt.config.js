@@ -1,3 +1,12 @@
+const defaultLocale = 'en'
+const locales = [
+  {
+    code: 'en',
+    name: 'EN',
+    langFile: 'en.json'
+  }
+];
+
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -38,6 +47,26 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    ['nuxt-i18n', {
+      locales,
+      defaultLocale,
+      detectBrowserLanguage: true,
+      redirectCookieKey: 'redirected',
+      useRedirectCookie: true,
+      loadLanguagesAsync: true,
+      langDir: 'locales/',
+      ignorePaths: [],
+      vueI18n: {
+        fallbackLocale: defaultLocale,
+        messages: {
+          /*
+          * make the default locale can work in fallback in ssr.
+          * */
+          en: require('./locales/en.json')
+        },
+        silentTranslationWarn: true
+      }
+    }],
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios'
   ],

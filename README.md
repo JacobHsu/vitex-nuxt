@@ -24,6 +24,7 @@ create-nuxt-app v3.7.1
 ## NPM
 
 [xui-module](https://www.npmjs.com/package/xui-module)
+[nuxt-i18n](https://www.npmjs.com/package/nuxt-i18n)
 
 ## Build Setup
 

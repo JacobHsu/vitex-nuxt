@@ -4,7 +4,12 @@
       <div class="hero-body">
         <div class="container">
           <div class="is-size-1-desktop is-size-2-touch slogan-wrapper">
-            <h1>slogan</h1>
+            <h1>{{$t("home.slogan")}}</h1>
+            <h1>{{$t("home.content")}}</h1>
+          </div>
+          <div class="btn">
+            <a class="start-btn" :href="$t('home.guideUrl')">{{$t('home.guide')}}</a>
+            <div class="start-btn">{{$t('home.starttoUse')}}</div>
           </div>
         </div>
       </div>
