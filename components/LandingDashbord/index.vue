@@ -4,8 +4,7 @@
       <div class="market-col __col-content">
         <div class="header-info">
           <div>
-            <a href="https://coinmarketcap.com/exchanges/vitex/" target="_blank"
-              ><img src="~/assets/images/index/cmc.png" alt=""
+            <a href="https://coinmarketcap.com/exchanges/vitex/" target="_blank"><img src="~/assets/images/index/cmc.png" alt=""
             /></a>
             <a
               href="https://www.coingecko.com/en/exchanges/vitex"
@@ -20,7 +19,7 @@
             <div>{{ $t("marketTable.header.closePrice") }}</div>
             <div>{{ $t("marketTable.header.change") }}</div>
           </div>
-          <!-- <a
+          <a
             v-for="item in markets"
             :key="item.symbol"
             class="market-item"
@@ -41,7 +40,7 @@
             >
               <strong>{{ item.priceChangePercent | percent }}</strong>
             </div>
-          </a> -->
+          </a>
         </div>
 
         <a

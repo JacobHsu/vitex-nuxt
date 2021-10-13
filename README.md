@@ -26,7 +26,6 @@ create-nuxt-app v3.7.1
 [xui-module](https://www.npmjs.com/package/xui-module)
 [nuxt-i18n](https://www.npmjs.com/package/nuxt-i18n)
 
-
 ## Debug
 
 > 'href' should be on a new line    vue/max-attributes-per-line

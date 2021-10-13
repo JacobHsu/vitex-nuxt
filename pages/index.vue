@@ -18,7 +18,7 @@
     </section>
     <div class="landing-dashbord-wrapper">
       <div class="container">
-        <landing-dashbord></landing-dashbord>
+        <landing-dashbord />
       </div>
     </div>
     <Tutorial />
