@@ -4,22 +4,34 @@
       <div class="hero-body">
         <div class="container">
           <div class="is-size-1-desktop is-size-2-touch slogan-wrapper">
-            <h1>{{$t("home.slogan")}}</h1>
-            <h1>{{$t("home.content")}}</h1>
+            <h1>{{ $t("home.slogan") }}</h1>
+            <h1>{{ $t("home.content") }}</h1>
           </div>
           <div class="btn">
-            <a class="start-btn" :href="$t('home.guideUrl')">{{$t('home.guide')}}</a>
-            <div class="start-btn">{{$t('home.starttoUse')}}</div>
+            <a class="start-btn" :href="$t('home.guideUrl')">{{
+              $t("home.guide")
+            }}</a>
+            <div class="start-btn">{{ $t("home.starttoUse") }}</div>
           </div>
         </div>
       </div>
     </section>
+    <div class="landing-dashbord-wrapper">
+      <div class="container">
+        <landing-dashbord></landing-dashbord>
+      </div>
+    </div>
     <Tutorial />
   </div>
 </template>
 
 <script>
-export default {}
+import LandingDashbord from "~/components/LandingDashbord";
+export default {
+  components: {
+    LandingDashbord
+  }
+};
 </script>
 
 <style lang="scss" scoped>

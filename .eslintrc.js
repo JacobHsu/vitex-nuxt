@@ -1,3 +1,4 @@
+// https://www.nuxtjs.cn/guide/development-tools
 module.exports = {
   root: true,
   env: {
@@ -5,15 +6,16 @@ module.exports = {
     node: true
   },
   parserOptions: {
-    parser: '@babel/eslint-parser',
+    parser: "@babel/eslint-parser",
     requireConfigFile: false
   },
-  extends: [
-    '@nuxtjs',
-    'plugin:nuxt/recommended'
-  ],
-  plugins: [
-  ],
+  extends: ["@nuxtjs", "plugin:nuxt/recommended"],
+  plugins: [],
   // add your custom rules here
-  rules: {}
-}
+  rules: {
+    // semi: [2, 'never'],
+    // 'no-console': 'off',
+    'vue/max-attributes-per-line': 'off',
+    'prettier/prettier': ['error', { semi: false }]
+  }
+};

@@ -26,6 +26,22 @@ create-nuxt-app v3.7.1
 [xui-module](https://www.npmjs.com/package/xui-module)
 [nuxt-i18n](https://www.npmjs.com/package/nuxt-i18n)
 
+
+## Debug
+
+> 'href' should be on a new line    vue/max-attributes-per-line
+
+.eslintrc.js [Nuxt.js 中集成 ESLint](https://www.nuxtjs.cn/guide/development-tools)
+
+```js
+  rules: {
+    // semi: [2, 'never'],
+    // 'no-console': 'off',
+    'vue/max-attributes-per-line': 'off',
+    // 'prettier/prettier': ['error', { semi: false }]
+  }
+```
+
 ## Build Setup
 
 ```bash
