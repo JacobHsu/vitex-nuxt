@@ -7,12 +7,12 @@
             <h1>{{ $t("home.slogan") }}</h1>
             <h1>{{ $t("home.content") }}</h1>
           </div>
-          <div class="btn">
+          <!-- <div class="btn">
             <a class="start-btn" :href="$t('home.guideUrl')">{{
               $t("home.guide")
             }}</a>
             <div class="start-btn">{{ $t("home.starttoUse") }}</div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -30,6 +30,9 @@ import LandingDashbord from "~/components/LandingDashbord";
 export default {
   components: {
     LandingDashbord
+  },
+  beforeMount() {
+    this.$store.dispatch("getLandingMarkets");
   }
 };
 </script>

@@ -4,13 +4,8 @@
       <div class="market-col __col-content">
         <div class="header-info">
           <div>
-            <a href="https://coinmarketcap.com/exchanges/vitex/" target="_blank"><img src="~/assets/images/index/cmc.png" alt=""
-            /></a>
-            <a
-              href="https://www.coingecko.com/en/exchanges/vitex"
-              target="_blank"
-              ><img src="~/assets/images/index/cg.png" alt=""
-            /></a>
+            <a href="https://coinmarketcap.com/exchanges/vitex/" target="_blank"><img src="~/assets/images/index/cmc.png" alt="" /></a>
+            <a href="https://www.coingecko.com/en/exchanges/vitex" target="_blank"><img src="~/assets/images/index/cg.png" alt="" /></a>
           </div>
         </div>
         <div class="market-wrapper">

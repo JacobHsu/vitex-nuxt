@@ -20,6 +20,7 @@ module.exports = {
     "space-before-function-paren": "off",
     "arrow-parens": "off",
     "import/no-named-as-default-member": "off",
+    curly: "off",
     // 'prettier/prettier': ['error', { semi: false }]
     quotes: [0, "double"] // 使用双引号，关闭
     // quotes: ["error", "single"]
