@@ -56,7 +56,15 @@
   </div>
 </template>
 
-<script></script>
+<script>
+export default {
+  computed: {
+    markets () {
+      return this.$store.state.exchangeMarket.landingMarkets;
+    }
+  }
+};
+</script>
 
 <style lang="scss" scoped>
 $landing-border-radius: 5px;

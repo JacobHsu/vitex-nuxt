@@ -1,5 +1,6 @@
 # vitex-nuxt
 
+vitelabs / [vitex.net](https://github.com/vitelabs/vitex.net)  
 [nuxtjs  create-nuxt-app.](https://nuxtjs.org/docs/get-started/installation)
 
 create-nuxt-app v3.7.1
